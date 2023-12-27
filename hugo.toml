@@ -1,0 +1,55 @@
+baseURL = "https://yan99.github.io/"
+languageCode = "en-us"
+title = "Yang Yan"
+theme = "digitalgarden"
+
+[params]
+  name = "Yang Yan"
+  description = "Red panda living in the eastern Himalayas."
+  initials = "YY"
+
+
+[menu]
+  [[menu.main]]
+    name = 'Home'
+    url = '/'
+    weight = 1
+  [[menu.main]]
+    name = 'Content'
+    params.header = true
+    weight = 2
+  [[menu.main]]
+    name = 'Notes'
+    url = '/Notes/'
+    weight = 3
+
+  [[menu.main]]
+    name = 'Projects'
+    params.header = true
+    weight = 4
+
+  [[menu.social]]
+    name = "Github"
+    link = "https://github.com/yan99/"
+    icon = "fab fa-github"
+  [[menu.social]]
+    name = "LinkedIn"
+    link = "https://www.linkedin.com/in/yang-yan-532988a5/"
+    icon = "fab fa-linkedin-in"
+
+
+[markup]
+  defaultMarkdownHandler = 'goldmark'
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.extensions]
+    definitionList = true
+    footnote = true
+    linkify = true
+    strikethrough = true
+    table = true
+    taskList = true
+    typographer = true
+  [markup.highlight]
+    # Choose from https://xyproto.github.io/splash/docs/all.html
+    style = 'monokailight'

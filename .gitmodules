@@ -1,0 +1,7 @@
+[submodule "themes/digitalgarden"]
+	path = themes/digitalgarden
+	url = https://github.com/apvarun/digital-garden-hugo-theme.git
+[submodule "public"]
+	path = public
+	url = git@github.com:yan99/yan99.github.io.git
+	branch = master
