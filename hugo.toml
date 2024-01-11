@@ -19,14 +19,17 @@ theme = "digitalgarden"
     params.header = true
     weight = 2
   [[menu.main]]
-    name = 'Notes'
+    name = 'Course Notes'
     url = '/Notes/'
     weight = 3
-
+  [[menu.main]]
+    name = 'Other Notes'
+    url = '/Othernotes/'
+    weight = 3
   [[menu.main]]
     name = 'Projects'
-    params.header = true
-    weight = 4
+    url = '/Projects/'
+    weight = 3
 
   [[menu.social]]
     name = "Github"
